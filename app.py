@@ -21,7 +21,7 @@ def index():
         db.session.commit()
        
     cities = City.query.order_by(City.id.desc())
-    url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=698693a3102e75a22db495db1736fbc1'
+    url = 'https://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=YOUR_KEY'
 
     weather_data = []
 
