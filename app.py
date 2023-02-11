@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = r'sqlite:///C:\Users\Maique\Desktop\social_network\weather.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = r'sqlite:///weather.db'
 db = SQLAlchemy(app)
 
 
